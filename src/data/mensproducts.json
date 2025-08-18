@@ -1,0 +1,407 @@
+[
+  {
+    "id": 1,
+    "name": "Nike White&Black",
+    "img": "/blackandwhite.avif",
+    "rating": "★★★★☆",
+    "price": "₹8,499",
+    "oldPrice": "₹10,499",
+    "sale": true,
+     "category":"men"
+  },
+  {
+    "id": 2,
+    "name": "Bright Cactus",
+    "img": "/brightcactus.avif",
+    "rating": "★★★★☆",
+    "price": "₹7,499",
+    "oldPrice": "₹9,499",
+    "sale": true,
+    "category":"men"
+  },
+  {
+    "id": 3,
+    "name": "Cargo Chaki",
+    "img": "/cargochaki.avif",
+    "rating": "★★★☆☆",
+    "price": "₹5,499",
+    "oldPrice": "₹7,999",
+    "sale": true,
+    "category":"men"
+  },
+  {
+    "id": 4,
+    "name": "Nike Dunes",
+    "img": "/desert.avif",
+    "rating": "★★★★☆",
+    "price": "₹6,499",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 5,
+    "name": "Nike Musline",
+    "img": "/musline.avif",
+    "rating": "★★★★☆",
+    "price": "₹9,999",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 6,
+    "name": "Adidas Obsidian",
+    "img": "/obsidian.avif",
+    "rating": "★★★★★",
+    "price": "₹14,999",
+    "oldPrice": "₹15,999",
+    "sale": true,
+    "category":"men"
+  },
+  {
+    "id": 7,
+    "name": "Orange AIR",
+    "img": "/orangejordan.avif",
+    "rating": "★★★★☆",
+    "price": "₹11,999",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 8,
+    "name": "University Blue",
+    "img": "/universityblue.avif",
+    "rating": "★★★☆☆",
+    "price": "₹5,999",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 9,
+    "name": "Stone Blue",
+    "img": "/stoneblue.avif",
+    "rating": "★★★★★",
+    "price": "₹8,999",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 10,
+    "name": "Adidas Whiteand",
+    "img": "/whiteand.avif",
+    "rating": "★★★☆☆",
+    "price": "₹7,999",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 11,
+    "name": "Nike Sail",
+    "img": "/sailandneutral.avif",
+    "rating": "★★★★☆",
+    "price": "₹9,999",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 12,
+    "name": "White AIR",
+    "img": "/whiteair.avif",
+    "rating": "★★★★☆",
+    "price": "₹6,999",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 13,
+    "name": "Puma White and Silver",
+    "img": "/whiteandsilver.avif",
+    "rating": "★★★☆☆",
+    "price": "₹5,999",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 14,
+    "name": "Yellow Zest",
+    "img": "/yellowzeste.avif",
+    "rating": "★★★★☆",
+    "price": "₹8,999",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 15,
+    "name": "Nike Starfish",
+    "img": "/starfish.avif",
+    "rating": "★★★★☆",
+    "price": "₹8,999",
+    "sale": false,
+    "category":"men"
+  },
+
+  {
+    "id": 17,
+    "name": "Algae",
+    "img": "/algae.avif",
+    "rating": "★★★☆☆",
+    "price": "₹6,799",
+    "oldPrice": "₹7,999",
+    "sale": true,
+    "category":"men"
+  },
+   {
+    "id": 20,
+    "name": "Ashe",
+    "img": "/ashe.avif",
+    "rating": "★★★★★",
+    "price": "₹8,999",
+    "sale": false,
+    "category":"men"
+  },
+   {
+    "id": 24,
+    "name": "Adidas Blocks",
+    "img": "/block.avif",
+    "rating": "★★★★★",
+    "price": "₹18,999",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 25,
+    "name": "Nike Blue &7",
+    "img": "/bluevoid.avif",
+    "rating": "★★★★☆",
+    "price": "₹6,799",
+    "sale": false,
+    "category":"men"
+  },
+   {
+    "id": 27,
+    "name": "Puma Bold",
+    "img": "/boldblack.avif",
+    "rating": "★★★★★",
+    "price": "₹11,499",
+    "sale": true,
+    "oldPrice": "₹12,499",
+    "category":"men"
+  },
+  {
+    "id": 30,
+    "name": "Nike Bred",
+    "img": "/bred.avif",
+    "rating": "★★★★☆",
+    "price": "₹7,999",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 31,
+    "name": "Converse Cactus",
+    "img": "/citron.avif",
+    "rating": "★★★★☆",
+    "price": "₹8,499",
+    "sale": false,
+    "category":"men"
+  },
+   {
+    "id": 34,
+    "name": "Nike Ceramic 88",
+    "img": "/ceramic.avif",
+    "rating": "★★★☆☆",
+    "price": "₹5,799",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 37,
+    "name": "Nike Desert F",
+    "img": "/desert.avif",
+    "rating": "★★★★☆",
+    "price": "₹10,999",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 38,
+    "name": "Yeezy cactus",
+    "img": "/yeezymen.avif",
+    "rating": "★★★☆☆",
+    "price": "₹5,499",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 41,
+    "name": "Nike Wizard OZ",
+    "img": "/wizardoz.avif",
+    "rating": "★★★★☆",
+    "price": "₹8,299",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 43,
+    "name": "Puma Yellow Green",
+    "img": "/yellowgreen.avif",
+    "rating": "★★★★☆",
+    "price": "₹6,499",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 44,
+    "name": "Reebok Moonlight",
+    "img": "/whitenikes.avif",
+    "rating": "★★★★★",
+    "price": "₹10,999",
+    "sale": false,
+    "category":"men"
+  },
+   {
+    "id": 46,
+    "name": "Puma Whitez",
+    "img": "/whiteand.avif",
+    "rating": "★★★★☆",
+    "price": "₹14,999",
+    "sale": false,
+    "category":"men"
+  },
+    {
+    "id": 54,
+    "name": "New blux",
+    "img": "/uncblux.avif",
+    "rating": "★★★★☆",
+    "price": "₹8,799",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 55,
+    "name": "Jordan Torn Black",
+    "img": "/tornblack.avif",
+    "rating": "★★★★★",
+    "price": "₹13,499",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 57,
+    "name": "Nike Soft Glow",
+    "img": "/softyellow.avif",
+    "rating": "★★★★☆",
+    "price": "₹9,999",
+    "oldPrice": "₹11,499",
+    "sale": true,
+    "category":"men"
+  },
+  {
+    "id": 61,
+    "name": "Nike Sequoia",
+    "img": "/sequoia.avif",
+    "rating": "★★★★☆",
+    "price": "₹8,499",
+    "sale": false,
+    "category":"men"
+  },
+   {
+    "id": 68,
+    "name": "Adidas Lime Light ",
+    "img": "/limelights.avif",
+    "rating": "★★★☆☆",
+    "price": "₹6,599",
+    "sale": false,
+    "category":"men"
+  },
+   {
+    "id": 71,
+    "name": "Nike Ivory",
+    "img": "/ivory.avif",
+    "rating": "★★★★☆",
+    "price": "₹8,999",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 76,
+    "name": "Jordan Harvest",
+    "img": "/harvest.avif",
+    "rating": "★★★★☆",
+    "price": "₹11,799",
+    "sale": false,
+    "category":"men"
+  },
+   {
+    "id": 78,
+    "name": "Adidas Mac N White",
+    "img": "/macnwhite.avif",
+    "rating": "★★★★☆",
+    "price": "₹9,299",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 80,
+    "name": "Jordan Max Blue",
+    "img": "/maxblue.avif",
+    "rating": "★★★★★",
+    "price": "₹13,499",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 81,
+    "name": "Nike Mandarin",
+    "img": "/mandarin.avif",
+    "rating": "★★★★☆",
+    "price": "₹9,399",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 83,
+    "name": "Puma Monarch",
+    "img": "/monarch.avif",
+    "rating": "★★★☆☆",
+    "price": "₹7,099",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 93,
+    "name": "Puma Nitro Flux",
+    "img": "/mettalicplatinum.avif",
+    "rating": "★★★☆☆",
+    "price": "₹7,099",
+    "sale": false,
+    "category":"men"
+  },
+   {
+    "id": 98,
+    "name": "Adidas Turbo Night",
+    "img": "/black.avif",
+    "rating": "★★★★☆",
+    "price": "₹10,099",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 99,
+    "name": "Puma Sprinter",
+    "img": "/sprinter.avif",
+    "rating": "★★★☆☆",
+    "price": "₹7,299",
+    "sale": false,
+    "category":"men"
+  },
+  {
+    "id": 102,
+    "name": "Glacier Blue",
+    "img": "/glaciermen.avif",
+    "rating": "★★★★★",
+    "price": "₹14,999",
+    "oldPrice": "₹16,499",
+    "sale": true,
+    "category":"men"
+  }
+]

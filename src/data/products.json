@@ -1,0 +1,928 @@
+[
+  {
+    "id": 1,
+    "name": "Nike White&Black",
+    "img": "/blackandwhite.avif",
+    "rating": "★★★★☆",
+    "price": "₹8,499",
+    "oldPrice": "₹10,499",
+    "sale": true,
+     "category":"men"
+  },
+  {
+    "id": 2,
+    "name": "Bright Cactus",
+    "img": "/brightcactus.avif",
+    "rating": "★★★★☆",
+    "price": "₹7,499",
+    "oldPrice": "₹9,499",
+    "sale": true,
+     "category":"men"
+  },
+  {
+    "id": 3,
+    "name": "Cargo Chaki",
+    "img": "/cargochaki.avif",
+    "rating": "★★★☆☆",
+    "price": "₹5,499",
+    "oldPrice": "₹7,999",
+    "sale": true,
+     "category":"men"
+  },
+  {
+    "id": 4,
+    "name": "Nike Dunes",
+    "img": "/desert.avif",
+    "rating": "★★★★☆",
+    "price": "₹6,499",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 5,
+    "name": "Nike Musline",
+    "img": "/musline.avif",
+    "rating": "★★★★☆",
+    "price": "₹9,999",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 6,
+    "name": "Adidas Obsidian",
+    "img": "/obsidian.avif",
+    "rating": "★★★★★",
+    "price": "₹14,999",
+    "oldPrice": "₹15,999",
+    "sale": true,
+     "category":"men"
+  },
+  {
+    "id": 7,
+    "name": "Orange AIR",
+    "img": "/orangejordan.avif",
+    "rating": "★★★★☆",
+    "price": "₹11,999",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 8,
+    "name": "University Blue",
+    "img": "/universityblue.avif",
+    "rating": "★★★☆☆",
+    "price": "₹5,999",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 9,
+    "name": "Stone Blue",
+    "img": "/stoneblue.avif",
+    "rating": "★★★★★",
+    "price": "₹8,999",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 10,
+    "name": "Adidas Whiteand",
+    "img": "/whiteand.avif",
+    "rating": "★★★☆☆",
+    "price": "₹7,999",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 11,
+    "name": "Nike Sail",
+    "img": "/sailandneutral.avif",
+    "rating": "★★★★☆",
+    "price": "₹9,999",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 12,
+    "name": "White AIR",
+    "img": "/whiteair.avif",
+    "rating": "★★★★☆",
+    "price": "₹6,999",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 13,
+    "name": "Puma White and Silver",
+    "img": "/whiteandsilver.avif",
+    "rating": "★★★☆☆",
+    "price": "₹5,999",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 14,
+    "name": "Yellow Zest",
+    "img": "/yellowzeste.avif",
+    "rating": "★★★★☆",
+    "price": "₹8,999",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 15,
+    "name": "Nike Starfish",
+    "img": "/starfish.avif",
+    "rating": "★★★★☆",
+    "price": "₹8,999",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 16,
+    "name": "Nike Algae Green",
+    "img": "/actiongreenkids.avif",
+    "rating": "★★★★☆",
+    "price": "₹7,499",
+    "sale": false, 
+    "category":"kids"
+
+  },
+  {
+    "id": 17,
+    "name": "Algae",
+    "img": "/algae.avif",
+    "rating": "★★★☆☆",
+    "price": "₹6,799",
+    "oldPrice": "₹7,999",
+    "sale": true,
+     "category":"men"
+  },
+  {
+    "id": 18,
+    "name": "Nike Aluminium",
+    "img": "/aluminiumwomente.avif",
+    "rating": "★★★★☆",
+    "price": "₹4,999",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 19,
+    "name": "Nike Aqua",
+    "img": "/aquakid.avif",
+    "rating": "★★★★★",
+    "price": "₹9,499",
+    "oldPrice": "₹10,499",
+    "sale": true,
+     "category":"kids"
+  },
+  {
+    "id": 20,
+    "name": "Ashe",
+    "img": "/ashe.avif",
+    "rating": "★★★★★",
+    "price": "₹8,999",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 21,
+    "name": "Nike Baroque Works",
+    "img": "/baroquekids.avif",
+    "rating": "★★★★★",
+    "price": "₹14,499",
+    "sale": false,
+     "category":"kids"
+  },
+  {
+    "id": 22,
+    "name": "NB Biege",
+    "img": "/biegewomen.avif",
+    "rating": "★★★★☆",
+    "price": "₹12,999",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 23,
+    "name": "Adidas Blackx",
+    "img": "/blackcatwomen.avif",
+    "rating": "★★★★★",
+    "price": "₹13,999",
+    "oldPrice": "₹15,999",
+    "sale": true,
+     "category":"women"
+  },
+  {
+    "id": 24,
+    "name": "Adidas Blocks",
+    "img": "/block.avif",
+    "rating": "★★★★★",
+    "price": "₹18,999",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 25,
+    "name": "Nike Blue &7",
+    "img": "/bluevoid.avif",
+    "rating": "★★★★☆",
+    "price": "₹6,799",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 26,
+    "name": "Puma Bluegaze",
+    "img": "/blugazekids.avif",
+    "rating": "★★★★☆",
+    "price": "₹7,499",
+    "sale": false,
+     "category":"kids"
+  },
+  {
+    "id": 27,
+    "name": "Puma Bold",
+    "img": "/boldblack.avif",
+    "rating": "★★★★★",
+    "price": "₹11,499",
+    "sale": true,
+    "oldPrice": "₹12,499",
+     "category":"men"
+  },
+  {
+    "id": 28,
+    "name": "Nike Boldwhite",
+    "img": "/boldwhitewomen.avif",
+    "rating": "★★★★★",
+    "price": "₹13,499",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 29,
+    "name": "Adidas Bordeax",
+    "img": "/bordeaxwomen.avif",
+    "rating": "★★★☆☆",
+    "price": "₹6,999",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 30,
+    "name": "Nike Bred",
+    "img": "/bred.avif",
+    "rating": "★★★★☆",
+    "price": "₹7,999",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 31,
+    "name": "Converse Cactus",
+    "img": "/citron.avif",
+    "rating": "★★★★☆",
+    "price": "₹8,499",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 32,
+    "name": "Jordan Blackx",
+    "img": "/blackxwoen.avif",
+    "rating": "★★★★☆",
+    "price": "₹13,499",
+    "sale": true,
+    "oldPrice": "₹14,999",
+     "category":"women"
+  },
+  {
+    "id": 33,
+    "name": "Adidas Blackpink",
+    "img": "/blackpinkwomen.avif",
+    "rating": "★★★☆☆",
+    "price": "₹6,499",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 34,
+    "name": "Nike Ceramic 88",
+    "img": "/ceramic.avif",
+    "rating": "★★★☆☆",
+    "price": "₹5,799",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 35,
+    "name": "Nike Chain ",
+    "img": "/chainwhitewomen.avif",
+    "rating": "★★★★☆",
+    "price": "₹9,799",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 36,
+    "name": "Adidas Cool",
+    "img": "/coolgreykids.avif",
+    "rating": "★★★★☆",
+    "price": "₹7,199",
+    "sale": false,
+     "category":"kids"
+  },
+  {
+    "id": 37,
+    "name": "Nike Desert F",
+    "img": "/desert.avif",
+    "rating": "★★★★☆",
+    "price": "₹10,999",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 38,
+    "name": "Yeezy cactus",
+    "img": "/yeezymen.avif",
+    "rating": "★★★☆☆",
+    "price": "₹5,499",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 39,
+    "name": "Reebok CCream 85",
+    "img": "/cranewomen.avif",
+    "rating": "★★★☆☆",
+    "price": "₹6,199",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 40,
+    "name": "Jordan 11 Concorde",
+    "img": "/concordwomen.avif",
+    "rating": "★★★★★",
+    "price": "₹15,999",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 41,
+    "name": "Nike Wizard OZ",
+    "img": "/wizardoz.avif",
+    "rating": "★★★★☆",
+    "price": "₹8,299",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 42,
+    "name": "Adidas WYWS",
+    "img": "/wywskids.avif",
+    "rating": "★★★☆☆",
+    "price": "₹7,199",
+    "oldPrice": "₹8,199",
+    "sale": true,
+     "category":"kids"
+  },
+  {
+    "id": 43,
+    "name": "Puma Yellow Green",
+    "img": "/yellowgreen.avif",
+    "rating": "★★★★☆",
+    "price": "₹6,499",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 44,
+    "name": "Reebok Moonlight",
+    "img": "/whitenikes.avif",
+    "rating": "★★★★★",
+    "price": "₹10,999",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 45,
+    "name": "NB Neon Fire",
+    "img": "/whitencolrkids.avif",
+    "rating": "★★★★☆",
+    "price": "₹9,499",
+    "oldPrice": "₹10,499",
+    "sale": true,
+     "category":"kids"
+  },
+  {
+    "id": 46,
+    "name": "Puma Whitez",
+    "img": "/whiteand.avif",
+    "rating": "★★★★☆",
+    "price": "₹14,999",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 47,
+    "name": "Nike Cloudmist",
+    "img": "/varsitykids.avif",
+    "rating": "★★★☆☆",
+    "price": "₹5,999",
+    "sale": false,
+     "category":"kids"
+  },
+  {
+    "id": 48,
+    "name": "Puma Cream",
+    "img": "/creamwomen.avif",
+    "rating": "★★★★☆",
+    "price": "₹6,899",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 49,
+    "name": "Jordan Vanilla",
+    "img": "/vanillawomen.avif",
+    "rating": "★★★★★",
+    "price": "₹13,999",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 50,
+    "name": "Converse Lav",
+    "img": "/lavendewomen.avif",
+    "rating": "★★★★☆",
+    "price": "₹7,499",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 51,
+    "name": "Nike Voltage",
+    "img": "/voltagekids.avif",
+    "rating": "★★★★☆",
+    "price": "₹9,199",
+    "sale": false,
+     "category":"kids"
+  },
+  {
+    "id": 52,
+    "name": "Adidas Valentine",
+    "img": "/valientineredwomen.avif",
+    "rating": "★★★☆☆",
+    "price": "₹6,299",
+    "oldPrice": "₹7,299",
+    "sale": true,
+     "category":"women"
+  },
+  {
+    "id": 53,
+    "name": "Puma Vague",
+    "img": "/vagueredwomen.avif",
+    "rating": "★★★★★",
+    "price": "₹11,499",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 54,
+    "name": "New blux",
+    "img": "/uncblux.avif",
+    "rating": "★★★★☆",
+    "price": "₹8,799",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 55,
+    "name": "Jordan Torn Black",
+    "img": "/tornblack.avif",
+    "rating": "★★★★★",
+    "price": "₹13,499",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 56,
+    "name": "Yeezy Red Fade",
+    "img": "/universiyredwomen.avif",
+    "rating": "★★★★☆",
+    "price": "₹12,999",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 57,
+    "name": "Nike Soft Glow",
+    "img": "/softyellow.avif",
+    "rating": "★★★★☆",
+    "price": "₹9,999",
+    "oldPrice": "₹11,499",
+    "sale": true,
+     "category":"men"
+  },
+  {
+    "id": 58,
+    "name": "Adidas Sesame",
+    "img": "/sesamekids.avif",
+    "rating": "★★★☆☆",
+    "price": "₹6,499",
+    "sale": false,
+     "category":"kids"
+  },
+  {
+    "id": 59,
+    "name": "Puma Sail",
+    "img": "/sailwomen.avif",
+    "rating": "★★★★☆",
+    "price": "₹8,699",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 60,
+    "name": "Converse Sail",
+    "img": "/sailyellokids.avif",
+    "rating": "★★★☆☆",
+    "price": "₹5,999",
+    "oldPrice": "₹6,799",
+    "sale": true,
+     "category":"kids"
+  },
+   {
+    "id": 61,
+    "name": "Nike Sequoia",
+    "img": "/sequoia.avif",
+    "rating": "★★★★☆",
+    "price": "₹8,499",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 62,
+    "name": "Adidas Sander",
+    "img": "/sanderwomen.avif",
+    "rating": "★★★☆☆",
+    "price": "₹6,999",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 63,
+    "name": "Jordan sailx",
+    "img": "/sailwomenx.avif",
+    "rating": "★★★★★",
+    "price": "₹13,299",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 64,
+    "name": "Puma Cyber Mint",
+    "img": "/rareairkids.avif",
+    "rating": "★★★★☆",
+    "price": "₹9,299",
+    "oldPrice": "₹10,299",
+    "sale": true,
+     "category":"kids"
+  },
+  {
+    "id": 65,
+    "name": "Nike Blu 77",
+    "img": "/royalblekids.avif",
+    "rating": "★★★☆☆",
+    "price": "₹7,199",
+    "sale": false,
+     "category":"kids"
+  },
+  {
+    "id": 66,
+    "name": "Nike Coral Flash",
+    "img": "/purplekids.avif",
+    "rating": "★★★★☆",
+    "price": "₹8,899",
+    "sale": false,
+     "category":"kids"
+  },
+  {
+    "id": 67,
+    "name": "Yeezy Ash",
+    "img": "/phantomwomen.avif",
+    "rating": "★★★★☆",
+    "price": "₹12,499",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 68,
+    "name": "Adidas Lime Light ",
+    "img": "/limelights.avif",
+    "rating": "★★★☆☆",
+    "price": "₹6,599",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 69,
+    "name": "Puma Kobe",
+    "img": "/nikenavykids.avif",
+    "rating": "★★★☆☆",
+    "price": "₹7,799",
+    "sale": false
+  },
+  {
+    "id": 70,
+    "name": "Nike kiddo",
+    "img": "/kiddokids.avif",
+    "rating": "★★★★☆",
+    "price": "₹9,499",
+    "sale": false
+  },
+  
+  {
+    "id": 71,
+    "name": "Nike Ivory",
+    "img": "/ivory.avif",
+    "rating": "★★★★☆",
+    "price": "₹8,999",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 72,
+    "name": "Adidas Hyper Pink",
+    "img": "/hyperpinkwomen.avif",
+    "rating": "★★★☆☆",
+    "price": "₹7,299",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 73,
+    "name": "Puma kiks",
+    "img": "/kikskids.avif",
+    "rating": "★★★★☆",
+    "price": "₹6,899",
+    "sale": false,
+     "category":"kids"
+  },
+  {
+    "id": 74,
+    "name": "NB Newbie",
+    "img": "/legendkids.avif",
+    "rating": "★★★☆☆",
+    "price": "₹7,599",
+    "sale": false,
+     "category":"kids"
+  },
+  {
+    "id": 75,
+    "name": "Yeezy Linen",
+    "img": "/linenwomen.avif",
+    "rating": "★★★★★",
+    "price": "₹13,999",
+    "oldPrice": "₹15,499",
+    "sale": true,
+     "category":"women"
+  },
+  {
+    "id": 76,
+    "name": "Jordan Harvest",
+    "img": "/harvest.avif",
+    "rating": "★★★★☆",
+    "price": "₹11,799",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 77,
+    "name": "Nike Shorts",
+    "img": "/luckyshortwomen.avif",
+    "rating": "★★★☆☆",
+    "price": "₹8,199",
+    "sale": false,
+     "category":"kids"
+  },
+  {
+    "id": 78,
+    "name": "Adidas Mac N White",
+    "img": "/macnwhite.avif",
+    "rating": "★★★★☆",
+    "price": "₹9,299",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 79,
+    "name": "Nike Mahogany",
+    "img": "/mahoganywomen.avif",
+    "rating": "★★★☆☆",
+    "price": "₹7,499",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 80,
+    "name": "Jordan Max Blue",
+    "img": "/maxblue.avif",
+    "rating": "★★★★★",
+    "price": "₹13,499",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 81,
+    "name": "Nike Mandarin",
+    "img": "/mandarin.avif",
+    "rating": "★★★★☆",
+    "price": "₹9,399",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 82,
+    "name": "Adidas Maize",
+    "img": "/maizekids.avif",
+    "rating": "★★★★☆",
+    "price": "₹8,799",
+    "sale": false,
+     "category":"kids"
+  },
+  {
+    "id": 83,
+    "name": "Puma Monarch",
+    "img": "/monarch.avif",
+    "rating": "★★★☆☆",
+    "price": "₹7,099",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 84,
+    "name": "NB Zen Flow",
+    "img": "/multiclorkids.avif",
+    "rating": "★★★★☆",
+    "price": "₹7,699",
+    "sale": false,
+     "category":"kids"
+  },
+  {
+    "id": 85,
+    "name": "Yeezy Red Dust",
+    "img": "/mysticredwomen.avif",
+    "rating": "★★★★★",
+    "price": "₹14,299",
+    "oldPrice": "₹16,999",
+    "sale": true,
+     "category":"women"
+  },
+  {
+    "id": 86,
+    "name": "Jordan Frostwave",
+    "img": "/mineralkids.avif",
+    "rating": "★★★★☆",
+    "price": "₹12,499",
+    "sale": false,
+     "category":"kids"
+  },
+  {
+    "id": 87,
+    "name": "Nike Noir",
+    "img": "/noirwomen.avif",
+    "rating": "★★★☆☆",
+    "price": "₹8,599",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 88,
+    "name": "Adidas Ghost r",
+    "img": "/nikenavykids.avif",
+    "rating": "★★★★☆",
+    "price": "₹9,799",
+    "sale": false,
+     "category":"kids"
+  },
+  {
+    "id": 89,
+    "name": "Nike Orange Shots",
+    "img": "/orangeshotswomen.avif",
+    "rating": "★★★☆☆",
+    "price": "₹7,399",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 90,
+    "name": "Nike Off noir",
+    "img": "/offnoirwomen.avif",
+    "rating": "★★★★★",
+    "price": "₹13,899",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 91,
+    "name": "Nike Olivia",
+    "img": "/oliviiawomen.avif",
+    "rating": "★★★★★",
+    "price": "₹12,999",
+    "oldPrice": "₹14,599",
+    "sale": true,
+     "category":"women"
+  },
+  {
+    "id": 92,
+    "name": "Adidas Vapor Chill",
+    "img": "/obsessedwomen.avif",
+    "rating": "★★★★☆",
+    "price": "₹9,299",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 93,
+    "name": "Puma Nitro Flux",
+    "img": "/mettalicplatinum.avif",
+    "rating": "★★★☆☆",
+    "price": "₹7,099",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 94,
+    "name": "Nike Pookie",
+    "img": "/pookiepinkwomen.avif",
+    "rating": "★★★★☆",
+    "price": "₹8,499",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 95,
+    "name": "Yeezy Pink Carbon",
+    "img": "/pinkfoamwomen.avif",
+    "rating": "★★★★★",
+    "price": "₹15,499",
+    "oldPrice": "₹17,499",
+    "sale": true,
+     "category":"women"
+  },
+  {
+    "id": 96,
+    "name": "Jordan Bordeax",
+    "img": "/bordeaxwomen.avif",
+    "rating": "★★★★★",
+    "price": "₹13,799",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 97,
+    "name": "Nike Black Chain",
+    "img": "/chainblackwomen.avif",
+    "rating": "★★★☆☆",
+    "price": "₹8,299",
+    "sale": false,
+     "category":"women"
+  },
+  {
+    "id": 98,
+    "name": "Adidas Turbo Night",
+    "img": "/black.avif",
+    "rating": "★★★★☆",
+    "price": "₹10,099",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 99,
+    "name": "Puma Sprinter",
+    "img": "/sprinter.avif",
+    "rating": "★★★☆☆",
+    "price": "₹7,299",
+    "sale": false,
+     "category":"men"
+  },
+  {
+    "id": 100,
+    "name": "Jordan Tan",
+    "img": "/tanwomen.avif",
+    "rating": "★★★★★",
+    "price": "₹14,999",
+    "oldPrice": "₹16,499",
+    "sale": true,
+    "category":"women"
+  }
+
+
+
+
+]
+
+

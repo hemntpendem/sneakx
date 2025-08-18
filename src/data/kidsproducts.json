@@ -1,0 +1,187 @@
+[
+     {
+    "id": 16,
+    "name": "Nike Algae Green",
+    "img": "/actiongreenkids.avif",
+    "rating": "★★★★☆",
+    "price": "₹7,499",
+    "sale": false,
+    "category":"kids"
+  },
+  {
+    "id": 19,
+    "name": "Nike Aqua",
+    "img": "/aquakid.avif",
+    "rating": "★★★★★",
+    "price": "₹9,499",
+    "oldPrice": "₹10,499",
+    "sale": true,
+     "category":"kids"
+  },
+  {
+    "id": 21,
+    "name": "Nike Baroque Works",
+    "img": "/baroquekids.avif",
+    "rating": "★★★★★",
+    "price": "₹14,499",
+    "sale": false,
+     "category":"kids"
+  },
+  {
+    "id": 26,
+    "name": "Puma Bluegaze",
+    "img": "/blugazekids.avif",
+    "rating": "★★★★☆",
+    "price": "₹7,499",
+    "sale": false,
+     "category":"kids"
+  },
+   {
+    "id": 36,
+    "name": "Adidas Cool",
+    "img": "/coolgreykids.avif",
+    "rating": "★★★★☆",
+    "price": "₹7,199",
+    "sale": false,
+     "category":"kids"
+  },
+   {
+    "id": 42,
+    "name": "Adidas WYWS",
+    "img": "/wywskids.avif",
+    "rating": "★★★☆☆",
+    "price": "₹7,199",
+    "oldPrice": "₹8,199",
+    "sale": true,
+     "category":"kids"
+  },
+{
+    "id": 45,
+    "name": "NB Neon Fire",
+    "img": "/whitencolrkids.avif",
+    "rating": "★★★★☆",
+    "price": "₹9,499",
+    "oldPrice": "₹10,499",
+    "sale": true,
+     "category":"kids"
+  },
+   {
+    "id": 47,
+    "name": "Nike Cloudmist",
+    "img": "/varsitykids.avif",
+    "rating": "★★★☆☆",
+    "price": "₹5,999",
+    "sale": false,
+     "category":"kids"
+  },
+    {
+    "id": 51,
+    "name": "Nike Voltage",
+    "img": "/voltagekids.avif",
+    "rating": "★★★★☆",
+    "price": "₹9,199",
+    "sale": false,
+     "category":"kids"
+  },
+   {
+    "id": 58,
+    "name": "Adidas Sesame",
+    "img": "/sesamekids.avif",
+    "rating": "★★★☆☆",
+    "price": "₹6,499",
+    "sale": false,
+     "category":"kids"
+  },
+   {
+    "id": 60,
+    "name": "Converse Sail",
+    "img": "/sailyellokids.avif",
+    "rating": "★★★☆☆",
+    "price": "₹5,999",
+    "oldPrice": "₹6,799",
+    "sale": true,
+     "category":"kids"
+  },
+   {
+    "id": 64,
+    "name": "Puma Cyber Mint",
+    "img": "/rareairkids.avif",
+    "rating": "★★★★☆",
+    "price": "₹9,299",
+    "oldPrice": "₹10,299",
+    "sale": true,
+     "category":"kids"
+  },
+   {
+    "id": 65,
+    "name": "Nike Blu 77",
+    "img": "/royalblekids.avif",
+    "rating": "★★★☆☆",
+    "price": "₹7,199",
+    "sale": false,
+     "category":"kids"
+  },
+   {
+    "id": 66,
+    "name": "Nike Coral Flash",
+    "img": "/purplekids.avif",
+    "rating": "★★★★☆",
+    "price": "₹8,899",
+    "sale": false,
+     "category":"kids"
+  },
+   {
+    "id": 69,
+    "name": "Puma Kobe",
+    "img": "/nikenavykids.avif",
+    "rating": "★★★☆☆",
+    "price": "₹7,799",
+    "sale": false,
+     "category":"kids"
+  },
+   {
+    "id": 70,
+    "name": "Nike kiddo",
+    "img": "/kiddokids.avif",
+    "rating": "★★★★☆",
+    "price": "₹9,499",
+    "sale": false,
+     "category":"kids"
+  },
+  {
+    "id": 73,
+    "name": "Puma kiks",
+    "img": "/kikskids.avif",
+    "rating": "★★★★☆",
+    "price": "₹6,899",
+    "sale": false,
+     "category":"kids"
+  },
+   {
+    "id": 74,
+    "name": "NB Newbie",
+    "img": "/legendkids.avif",
+    "rating": "★★★☆☆",
+    "price": "₹7,599",
+    "sale": false,
+     "category":"kids"
+  },
+   {
+    "id": 82,
+    "name": "Adidas Maize",
+    "img": "/maizekids.avif",
+    "rating": "★★★★☆",
+    "price": "₹8,799",
+    "sale": false,
+     "category":"kids"
+  },
+  {
+    "id": 86,
+    "name": "Jordan Frostwave",
+    "img": "/mineralkids.avif",
+    "rating": "★★★★☆",
+    "price": "₹12,499",
+    "sale": false,
+     "category":"kids"
+  }
+]

@@ -1,0 +1,169 @@
+
+/* Change on hover so it’s visible */
+.popup-form input:hover {
+  cursor: pointer; /* or "default", or even "crosshair" if you want */
+}
+
+
+
+
+
+.popup-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 1rem; /* Handles small screen spacing */
+}
+
+.popup-form {
+  background: #fff;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 1rem;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  animation: popupIn 0.4s ease;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  .popup-form {
+    top: -5rem; /* adjust this value to move higher */
+  }
+}
+
+@keyframes popupIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.popup-form h2 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #333;
+  text-align: center;
+}
+
+.popup-form h2 span {
+  font-family: 'Garamond', serif;
+  letter-spacing: -0.3rem;
+}
+
+.popup-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: text;
+  color: #000;        /* text black */
+  caret-color: black; /* ✅ force black cursor */
+}
+
+.popup-form button[type="submit"] {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  background-color: #ff6600;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.popup-form button[type="submit"]:hover {
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  color: black;
+ 
+}
+
+
+
+/* Default Sign Up style */
+.signup-btn {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  background: whitesmoke;
+  color: black;
+  border: 1px solid black;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+
+  /* Cross-browser transition */
+  -webkit-transition: background 0.3s ease, color 0.3s ease;
+  -moz-transition: background 0.3s ease, color 0.3s ease;
+  -o-transition: background 0.3s ease, color 0.3s ease;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Hover Effect */
+.signup-btn:hover {
+  background: black;
+  color: #ff6600;
+}
+
+
+.close-btn {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+  transition: color 0.2s ease;
+  font-size: 1.25rem;
+}
+
+.close-btn:hover {
+  color: #000;
+}
+
+/* --------- Media Query for Mobile --------- */
+@media (max-width: 480px) {
+  .popup-form {
+    padding: 1.25rem;
+    border-radius: 0.75rem;
+  }
+
+  .popup-form h2 {
+    font-size: 1.25rem;
+  }
+
+  .popup-form input,
+  .popup-form button[type="submit"] {
+    font-size: 0.95rem;
+    padding: 0.65rem;
+  }
+
+  .close-btn {
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 1.1rem;
+  }
+}

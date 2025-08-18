@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Nike Air Max 97",
+    "brand": "Nike",
+    "resellPrice": 180,
+    "thumbnail": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/bn2ljcwtpx7zphvsqyyk/air-max-97-shoes-F6f4xW.png"
+  },
+  {
+    "id": 2,
+    "title": "Adidas Forum Low",
+    "brand": "Adidas",
+    "resellPrice": 100,
+    "thumbnail": "https://assets.adidas.com/images/w_600,f_auto,q_auto/aaee50bba21d4d2a8b71ad1001326d89_9366/Forum_Low_Shoes_White_FY7757_01_standard.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Puma RS-X³",
+    "brand": "Puma",
+    "resellPrice": 110,
+    "thumbnail": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/374408/01/sv01/fnd/IND/fmt/png/PUMA-RS-X%E2%81%B3-Sneakers"
+  }
+]
