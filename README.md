@@ -15,14 +15,21 @@
 
 
 # Tech Stack
-![GitHub repo size](https://img.shields.io/github/repo-size/hemntpendem/sneakx?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/hemntpendem/sneakx?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/hemntpendem/sneakx?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/hemntpendem/sneakx?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/hemntpendem/sneakx?style=for-the-badge)
+
+## Tech Stack
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 - Frontend: HTML,JavaScript,JSX,React, Vite
 - State Management: React Context API
+- JSON :custom sneaker dataset for product rendering
 - Styling: CSS Modules
 - Bundler: Vite
 - Version Control: Git, GitHub
@@ -56,15 +63,24 @@ Visit http://localhost:5173 in your browser.
 
 # Project Structure
 sneakx/
-├── public/           # Static assets
-├── src/              # Source code
-│   ├── components/   # Reusable UI components
-│   ├── context/      # React Context for state management
-│   └── App.jsx       # Main application component
-├── .gitignore        # Git ignore rules
-├── package.json      # Project metadata and dependencies
-├── vite.config.js    # Vite configuration
-└── README.md         # Project documentation
+├── public/              # Static assets (images, icons, etc.)
+│   ├── sneakers/        # Sneaker images (.avif)
+│   └── favicon.ico
+│
+├── src/                 # Main source code
+│   ├── assets/          # Fonts, extra images, global styles
+│   ├── components/      # Reusable UI components (Navbar, Footer, Cards, etc.)
+│   ├── pages/           # Page-level components (Home, Men, Women, Kids, Collection, CartItem, Liked, SearchProduct)
+│   ├── context/         # React Context (Cart, Liked, etc.)
+│   ├── data/            # Static JSON sneaker dataset
+│   ├── App.jsx          # Main app file
+│   ├── main.jsx         # Entry point
+│   └── index.css        # Global styles
+│
+├── .gitignore
+├── package.json
+├── vite.config.js
+└── README.md
 
 # Learnings & Challenges
 
@@ -80,7 +96,8 @@ sneakx/
 # Screenshots
 
 ## On Desktop
-![Welcome Popup](https://github.com/user-attachments/assets/7657853d-f54f-4857-88ff-51a4bb42804c)
+
+![Welcome Popup](https://github.com/user-attachments/assets/84c0d3fa-dd1b-475a-a0fd-9f601db1b32b)
 
 ![Home Page](https://github.com/user-attachments/assets/4945788a-724a-4ac4-95c0-37cd5254eafe)
 
@@ -94,6 +111,7 @@ sneakx/
 
 
 ## On Mobile
+
 ![Home Page On Mobile](https://github.com/user-attachments/assets/e2c535bf-327b-4064-b880-e8686b872e4d)
 
 ![Mobile Nav Bar](https://github.com/user-attachments/assets/220f7f73-307c-418c-93fe-360bba26df89)
