@@ -99,13 +99,11 @@ Sneakx is fully responsive — here’s a quick preview on desktop and mobile.
 
 ![Home Page](https://github.com/user-attachments/assets/4945788a-724a-4ac4-95c0-37cd5254eafe)
 
-![Product Page](https://github.com/user-attachments/assets/ca232eea-1d22-4bc3-9b39-371f6ee5aac2)
+![Product Page](https://github.com/user-attachments/assets/a97b9c49-67a5-4a90-80da-cb9e2f46a67d)
 
-![Liked Items Page](https://github.com/user-attachments/assets/79beb7e7-019f-4be2-8203-228f3f4fdd9e)
+![Liked Items Page](https://github.com/user-attachments/assets/b8b96f56-d427-4e3f-a8d6-aa65dd82f8ac)
 
-![Cart page](https://github.com/user-attachments/assets/bd5486f0-a53b-4cf5-a86b-48caecf69c88)
-
-![Profile Page](https://github.com/user-attachments/assets/dc2e5930-f0c2-4eaa-ad87-50a8c2d4779d)
+![Cart page](https://github.com/user-attachments/assets/a15a25b5-9703-406f-a556-997952935a99)
 
 
 ## On Mobile
