@@ -3,26 +3,20 @@ import products from "../data/products.json";
 import { Heart } from "lucide-react";
 import { LikedSneaksContext } from "../context/LikedSneaksContext";
 import { useNavigate } from "react-router-dom";
-import { ShoppingCart } from "lucide-react";
 import { CartContext } from "../context/CartContext";
-import { useParams } from "react-router-dom";
 import { toast } from "react-toastify"; {/*react-tostify for added cart item notification */}
 
 const Homegrid = () => {
   const { likedItems, toggleLike } = useContext(LikedSneaksContext);
 
-  
-    const { id } = useParams();
-const product = products.find((item) => item.id === parseInt(id));
-    const { addToCart } = useContext(CartContext);
 
-  
-     const handleAddToCart = () => {
-      addToCart(product.id);
-      toast.success(`${product.name} added to cart 🛒`, {
-        icon: "✅",
-      });
-    };
+  const { addToCart } = useContext(CartContext);
+  const handleAddToCart = (product) => {
+    addToCart(product.id);
+    toast.success(`${product.name} added to cart 🛒`, {
+      icon: "✅",
+    });
+  };
 
   const navigate = useNavigate();
 
@@ -74,7 +68,7 @@ const product = products.find((item) => item.id === parseInt(id));
                       <span className="new-price">{product.price}</span>
                     </div>
                   </div>
-                  <button className="add-to-cart2" onClick={handleAddToCart}>Add to Cart</button>
+                  <button className="add-to-cart2" onClick={() => handleAddToCart(product)}>Add to Cart</button>
                   <button
                     className="buy-btn"
                     onClick={() => navigate(`/cartitem/${product.id}`)}
