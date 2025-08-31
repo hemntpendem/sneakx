@@ -4,11 +4,25 @@ import { Heart } from 'lucide-react';
 import { LikedSneaksContext } from "../context/LikedSneaksContext";
 import { useNavigate } from 'react-router-dom';
 import AboutusFooter from './AboutusFooter';
+import { toast } from "react-toastify"; 
+import { CartContext } from "../context/CartContext";
 
 const SneakerCard = ({ product }) => {
   const { likedItems, toggleLike } = useContext(LikedSneaksContext);
   const isLiked = likedItems.includes(product.id);
  const navigate = useNavigate();
+
+ 
+   
+    const { addToCart } = useContext(CartContext);
+
+  
+     const handleAddToCart = () => {
+      addToCart(product.id);
+      toast.success(`${product.name} added to cart 🛒`, {
+        icon: "✅",
+      });
+    };
 
   return (
     <div className="product-card3">
@@ -33,6 +47,7 @@ const SneakerCard = ({ product }) => {
         <span className="new-price">{product.price}</span>
         </div>
       </div>
+           <button className="add-to-cart2" onClick={handleAddToCart}>Add to Cart</button>
         <button className="buy-btn" onClick={() => navigate(`/cartitem/${product.id}`)}>Buy</button>
 
     </div>

@@ -4,6 +4,8 @@ import products from "../data/products.json";
 import { Heart } from "lucide-react";
 import { useNavigate } from 'react-router-dom';
 import { FaHeart } from "react-icons/fa";
+import { toast } from "react-toastify"; 
+import { CartContext } from "../context/CartContext"
 
 
 const Liked = () => {
@@ -20,6 +22,16 @@ const Liked = () => {
     likedProductIds.includes(product.id)
   );
 
+
+    const { addToCart } = useContext(CartContext);
+          
+            
+               const handleAddToCart = () => {
+                addToCart(likedItems.id);
+                toast.success(`${likedItems.name} added to cart 🛒`, {
+                  icon: "✅",
+                });
+              };
   return (
     <div className="likedpage-container">
       <div className="likedproduct-grid3">
@@ -56,6 +68,7 @@ const Liked = () => {
                 <span className="new-price">{product.price}</span>
               </div>
               </div>
+              <button className="add-to-cart2" onClick={handleAddToCart}>Add to Cart</button>
                <button className="buy-btn" onClick={() => navigate(`/cartitem/${product.id}`)}>Buy</button>
             </div>
           ))
