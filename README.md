@@ -112,10 +112,11 @@ Sneakx is fully responsive — here’s a quick preview on desktop and mobile.
 
 ![Mobile Nav Bar](https://github.com/user-attachments/assets/220f7f73-307c-418c-93fe-360bba26df89)
 
-![Search Page On Mobile](https://github.com/user-attachments/assets/ea6a9e21-c75e-4d5c-8dd9-10cb20f84c35)
+![Search Page On Mobile](https://github.com/user-attachments/assets/8f1f0b83-857e-4535-9e7f-1a55becf1537)
 
-![Product Page On Mobile](https://github.com/user-attachments/assets/c04186fc-a5f8-4450-95c6-e2513581847e)
+![Cart Page On Mobile](https://github.com/user-attachments/assets/8a11ab5a-fb25-4388-b4ca-965f9ba486c7)
 
+![Profile Page On Mobile](https://github.com/user-attachments/assets/adc4475f-b568-4704-9ed7-8443d558cf92)
 
 
 
