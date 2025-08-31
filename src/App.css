@@ -1850,9 +1850,12 @@ font-family: "Poppins", sans-serif;
   opacity: 0.7;
 }
 
-.remove-button svg {
-  display: block;
-  margin: auto;
+@media (max-width: 768px) {
+  .remove-button {
+    padding: 0.6rem 0.8rem;
+    font-size: 1rem;
+    right: 1rem;
+  }
 }
 
 .cartitem-details {
