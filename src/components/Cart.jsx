@@ -40,9 +40,7 @@ const Cart = () => {
 
             <div className="product-img3">
               <img src={product.img} alt={product.name} onClick={() => navigate(`/cartitem/${product.id}`)}/>
-              <button className="remove-button" onClick={() => removeFromCart(product.id)}>
-               <X size={22} strokeWidth={1} />
-              </button>
+             
             </div>
 
             <div className="product-info" onClick={() => navigate(`/cartitem/${product.id}`)}>
@@ -54,7 +52,9 @@ const Cart = () => {
                 <span className="new-price">{product.price}</span>
               </div>
             </div>
-
+             <button className="remove-button" onClick={() => removeFromCart(product.id)}>
+               Remove
+              </button>
             <button className="buy-btn" onClick={() => navigate(`/cartitem/${product.id}`)}>
               Buy
             </button>
