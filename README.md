@@ -3,7 +3,26 @@
 - Sneakx is a sleek, responsive front-end e-commerce website designed to showcase my React and Vite skills. 
 - Built as a resume project, it offers a seamless shopping experience for sneaker enthusiasts across all ages and genders.
 
+## Features
 
+- Product Catalog: Browse a curated collection of sneakers with filters for gender and age group.
+- Add to Cart: Add items to your cart with real-time updates.
+- Like Items: Mark your favorite sneakers for quick access.
+- Persistent State: Utilizes `useContext` and `localStorage` for state management, ensuring data persists across sessions.
+- Responsive Design: Optimized for both desktop and mobile devices.
+- Lightweight & Fast: Built with Vite for rapid development and performance.
+
+---
+
+## Tech Stack
+
+- Frontend: HTML,JavaScript,JSX,React, Vite
+- State Management: React Context API
+- JSON :custom sneaker dataset for product rendering
+- Styling: CSS Modules
+- Bundler: Vite
+- Version Control: Git, GitHub
+ 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -14,54 +33,39 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
-# Features
+---
 
-- Product Catalog: Browse a curated collection of sneakers with filters for gender and age group.
-- Add to Cart: Add items to your cart with real-time updates.
-- Like Items: Mark your favorite sneakers for quick access.
-- Persistent State: Utilizes `useContext` and `localStorage` for state management, ensuring data persists across sessions.
-- Responsive Design: Optimized for both desktop and mobile devices.
-- Lightweight & Fast: Built with Vite for rapid development and performance.
-
-
-# Tech Stack
-
-- Frontend: HTML,JavaScript,JSX,React, Vite
-- State Management: React Context API
-- JSON :custom sneaker dataset for product rendering
-- Styling: CSS Modules
-- Bundler: Vite
-- Version Control: Git, GitHub
-
-
-# Live Demo
+## Live Demo
 
 Experience Sneakx in action: [sneakx.vercel.app](https://sneakx.vercel.app)
 
+---
 
-# Getting Started
+## Getting Started
 
-## Prerequisites
+### Prerequisites
 
 Ensure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (v14 or higher)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
 
-## Installation
+### Installation
 
-## Clone the repository:
+### Clone the repository:
 git clone https://github.com/hemntpendem/sneakx.git
 cd sneakx
 
-## Install dependencies:
+### Install dependencies:
 npm install
 
-## Start the development server:
+### Start the development server:
 npm run dev
 Visit http://localhost:5173 in your browser.
 
-# Project Structure
+---
+
+## Project Structure
 ```
 sneakx/
 ├── public/              # Static assets (images, icons, etc.)
@@ -79,19 +83,24 @@ sneakx/
 ├── vite.config.js
 └── README.md
 ```
+---
 
-# Learnings & Challenges
+## Learnings & Challenges
 
 - Mastered React Context API for global state management.
 - Implemented localStorage to persist user data across sessions.
 - Gained hands-on experience with Vite's fast bundling and hot module replacement.
 - Designed a user-friendly UI with a focus on accessibility and responsiveness.
 
-# Contributing
+---
+
+## Contributing
 
 - Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request with your proposed changes.
 
-# Screenshots
+---
+
+## Screenshots
 Sneakx is fully responsive — here’s a quick preview on desktop and mobile.
 ## On Desktop
 
@@ -105,18 +114,19 @@ Sneakx is fully responsive — here’s a quick preview on desktop and mobile.
 
 ![Cart page](https://github.com/user-attachments/assets/a15a25b5-9703-406f-a556-997952935a99)
 
+---
 
 ## On Mobile
 
-![Home Page On Mobile](https://github.com/user-attachments/assets/e2c535bf-327b-4064-b880-e8686b872e4d)
+<img src="https://github.com/user-attachments/assets/e2c535bf-327b-4064-b880-e8686b872e4d" alt="Home Page On Mobile" width="300">
 
-![Mobile Nav Bar](https://github.com/user-attachments/assets/220f7f73-307c-418c-93fe-360bba26df89)
+<img src="https://github.com/user-attachments/assets/220f7f73-307c-418c-93fe-360bba26df89" alt="Mobile Nav Bar" width="300">
 
-![Search Page On Mobile](https://github.com/user-attachments/assets/8f1f0b83-857e-4535-9e7f-1a55becf1537)
+<img src="https://github.com/user-attachments/assets/8f1f0b83-857e-4535-9e7f-1a55becf1537" alt="Search Page On Mobile" width="300">
 
-![Cart Page On Mobile](https://github.com/user-attachments/assets/8a11ab5a-fb25-4388-b4ca-965f9ba486c7)
+<img src="https://github.com/user-attachments/assets/8a11ab5a-fb25-4388-b4ca-965f9ba486c7" alt="Cart Page On Mobile" width="300">
 
-![Profile Page On Mobile](https://github.com/user-attachments/assets/adc4475f-b568-4704-9ed7-8443d558cf92)
+<img src="https://github.com/user-attachments/assets/adc4475f-b568-4704-9ed7-8443d558cf92" alt="Profile Page On Mobile" width="300">
 
 
 
