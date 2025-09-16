@@ -26,12 +26,15 @@ const Liked = () => {
     const { addToCart } = useContext(CartContext);
           
             
-               const handleAddToCart = () => {
-                addToCart(likedItems.id);
-                toast.success(`${likedItems.name} added to cart 🛒`, {
-                  icon: "✅",
-                });
-              };
+               const handleAddToCart = (productId) => {
+  console.log("Product ID received:", productId);
+  addToCart(productId);
+  const product = products.find(p => p.id === productId);
+  if (product) {
+    toast.success(`${product.name} added to cart 🛒`, { icon: "✅" });
+  }
+};
+
   return (
     <div className="likedpage-container">
       <div className="likedproduct-grid3">
@@ -68,7 +71,7 @@ const Liked = () => {
                 <span className="new-price">{product.price}</span>
               </div>
               </div>
-              <button className="add-to-cart2" onClick={handleAddToCart}>Add to Cart</button>
+              <button className="add-to-cart2"  onClick={() => handleAddToCart(product.id)} >Add to Cart</button>
                <button className="buy-btn" onClick={() => navigate(`/cartitem/${product.id}`)}>Buy</button>
             </div>
           ))
