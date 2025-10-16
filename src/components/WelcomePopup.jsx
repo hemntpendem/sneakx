@@ -9,7 +9,7 @@ const WelcomePopup = () => {
   const [isVisible, setIsVisible] = useState(false); // default false
 
   useEffect(() => {
-     console.log("Firebase API Key:", import.meta.env.VITE_FIREBASE_API_KEY);
+    
     const popupShown = sessionStorage.getItem('popupDismissed');
     if (!popupShown) {
       setIsVisible(true); // show if not dismissed before
