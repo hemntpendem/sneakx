@@ -10,6 +10,9 @@ const Navbar = () => {
 
  const [showMobileNav, setShowMobileNav] = useState(false);
 
+ const profilePic = localStorage.getItem('photo');
+const [imgLoaded, setImgLoaded] = useState(false);
+
   const { cartItems } = useContext(CartContext);
   // Navbar scroll animation
   useEffect(() => {
@@ -90,12 +93,23 @@ const Navbar = () => {
           {cartItems.length > 0 && (
           <span className="cart-count">{cartItems.length}</span>)}
        </div>
+<NavLink
+  to="/user"
+  className={({ isActive }) => (isActive ? "user active" : "user")}
+>
+  {profilePic && imgLoaded ? (
+    <img
+      src={profilePic}
+      alt="Profile"
+      className="user-photo"
+      onLoad={() => setImgLoaded(true)}
+    />
+  ) : (
+    <FaUserCircle className="user-icon" />
+  )}
+</NavLink>
+         
 
-          <NavLink to="/user"   
-          className={({ isActive }) =>
-          isActive ? "user active" : "user"}>
-           <FaUserCircle />
-          </NavLink>
         </div>
 
       </nav>

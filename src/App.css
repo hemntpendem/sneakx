@@ -273,10 +273,34 @@ font-family: "Poppins", sans-serif;
 }
 
 /* navbar right usericon */
-.user{
+
+
+.user-photo {
+  width: 3vw;        /* responsive width relative to viewport */
+  height: 3vw;       /* keep it square */
+  max-width: 40px;   /* won't exceed 40px on large screens */
+  max-height: 40px;  /* same for height */
+  min-width: 25px;   /* won't shrink below 25px on small screens */
+  min-height: 25px;  
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Optional: fine-tune for mobile */
+@media (max-width: 480px) {
+  .user-photo {
+    width: 8vw;
+    height: 8vw;
+    max-width: 35px;
+    max-height: 35px;
+  }
+}
+
+.user-icon{
   font-size: 1.5rem;
 }
-.nav-right a:hover {
+
+.nav-right a:hover:not(.user-photo) {
   transform: scale(1.10);
   color: #ff6600;
 }

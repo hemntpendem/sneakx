@@ -1,14 +1,17 @@
 import React, { useEffect, useState } from "react";
+import { FaUserCircle } from "react-icons/fa";
 import "./AccountPage.css";
 
 const AccountPage = () => {
   const [username, setUsername] = useState("");
+  const [photo, setPhoto] = useState("");
+  const [imgLoaded, setImgLoaded] = useState(false); // ✅ track if image loaded
 
   useEffect(() => {
     const storedName = localStorage.getItem("username");
-    if (storedName) {
-      setUsername(storedName);
-    }
+    const storedPhoto = localStorage.getItem("photo");
+    if (storedName) setUsername(storedName);
+    if (storedPhoto) setPhoto(storedPhoto);
   }, []);
 
   const sections = [
@@ -16,7 +19,10 @@ const AccountPage = () => {
     { title: "Login & security", desc: "Edit login, name, and mobile number" },
     { title: "Subscription", desc: "View benefits and payment settings" },
     { title: "Your Addresses", desc: "Edit addresses for orders and gifts" },
-    { title: "Your business account", desc: "Sign up for free to save up to 28% with GST invoice and bulk discounts and purchase on credit." },
+    {
+      title: "Your business account",
+      desc: "Sign up for free to save up to 28% with GST invoice and bulk discounts and purchase on credit."
+    },
     { title: "Payment options", desc: "Edit or add payment methods" },
     { title: "Merchendise", desc: "Exclusive merch for true sneakerheads" },
     { title: "Contact Us", desc: "Contact our customer service via phone or chat" },
@@ -24,15 +30,37 @@ const AccountPage = () => {
 
   return (
     <div className="account-page">
-      <h1 className="account-title">
-  Your Account: {username ? username .split(" ")
-        .map(
-          (word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
-        )
-        .join(" ")
-    : ""}
-</h1>
+      <div
+        className="account-header"
+        style={{ display: "flex", alignItems: "center", marginBottom: 20 }}
+      >
+        {photo && imgLoaded ? (
+          <img
+            src={photo}
+            alt="Profile"
+            style={{ width: 60, height: 60, borderRadius: "50%", marginRight: 10 }}
+            onLoad={() => setImgLoaded(true)}
+          />
+        ) : (
+          <FaUserCircle
+            className="user-icon-fallback"
+            style={{ width: 60, height: 60, marginRight: 10, fontSize: "3rem" }}
+          />
+        )}
 
+        <h1 className="account-title">
+          Your Account:{" "}
+          {username
+            ? username
+                .split(" ")
+                .map(
+                  (word) =>
+                    word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+                )
+                .join(" ")
+            : ""}
+        </h1>
+      </div>
 
       <div className="account-grid">
         {sections.map((section, index) => (

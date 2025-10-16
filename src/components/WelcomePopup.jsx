@@ -1,37 +1,41 @@
 import React, { useState, useEffect } from 'react';
 import './WelcomePopup.css';
 import { X } from 'lucide-react';
+import { auth, provider } from '../Firebase'; // go up one folder from components/
+import { signInWithPopup } from 'firebase/auth';
+
 
 const WelcomePopup = () => {
   const [isVisible, setIsVisible] = useState(false); // default false
 
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    coolMessage: '',
-  });
-
   useEffect(() => {
     const popupShown = sessionStorage.getItem('popupDismissed');
     if (!popupShown) {
-      setIsVisible(true); // only show if not dismissed before
+      setIsVisible(true); // show if not dismissed before
     }
   }, []);
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-const handleSubmit = (e) => {
-  e.preventDefault();
-  sessionStorage.setItem('popupDismissed', 'true'); 
-  localStorage.setItem('username', formData.name); // 🔥 store name
-  setIsVisible(false);
-  console.log('Submitted:', formData);
-};
+  const handleGoogleLogin = async () => {
+    try {
+      const result = await signInWithPopup(auth, provider);
+      const user = result.user;
 
+      // Store info in localStorage
+      localStorage.setItem('username', user.displayName);
+      localStorage.setItem('email', user.email);
+      localStorage.setItem('photo', user.photoURL);
+
+      sessionStorage.setItem('popupDismissed', 'true');
+      setIsVisible(false);
+
+      console.log('Logged in user:', user);
+    } catch (error) {
+      console.error('Login failed:', error);
+    }
+  };
 
   const handleClose = () => {
-    sessionStorage.setItem('popupDismissed', 'true'); // persist the dismissal
+    sessionStorage.setItem('popupDismissed', 'true'); // persist dismissal
     setIsVisible(false);
   };
 
@@ -44,33 +48,11 @@ const handleSubmit = (e) => {
           <X size={20} />
         </button>
         <h2>Welcome to <span>SNEAKX</span></h2>
-        <form onSubmit={handleSubmit}>
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Name"
-            value={formData.name}
-            onChange={handleChange}
-            required
-          />
-          <input
-            type="email"
-            name="email"
-            placeholder="Your Email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
-          <input
-            type="text"
-            name="coolMessage"
-            placeholder="Type Something Cool..."
-            value={formData.coolMessage}
-            onChange={handleChange}
-          />
-          <button type="submit">Let’s Go</button>
-           <button type="button" className="signup-btn">Sign Up</button>
-        </form>
+
+        {/* Google Sign-In Button */}
+        <button className="signup-btn" onClick={handleGoogleLogin}>
+          Sign in with Google
+        </button>
       </div>
     </div>
   );

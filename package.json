@@ -12,6 +12,7 @@
   "dependencies": {
     "@iconify/react": "^6.0.0",
     "embla-carousel-react": "^8.6.0",
+    "firebase": "^12.4.0",
     "gsap": "^3.13.0",
     "lucide-react": "^0.525.0",
     "react": "^19.1.0",
