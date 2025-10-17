@@ -167,3 +167,11 @@
     font-size: 1.1rem;
   }
 }
+
+.animated-sneaker {
+  width: 60%;       /* scales with popup width */
+  max-width: 180px; /* prevents huge size */
+  height: auto;     /* keeps aspect ratio */
+  display: block;
+  margin: 0 auto 1rem auto; /* center + spacing below */
+}

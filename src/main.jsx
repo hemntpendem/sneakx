@@ -20,8 +20,6 @@ createRoot(document.getElementById('root')).render(
     </ScrollProvider>
     </CartProvider>
     </LikedSneaksProvider>
-   
     </BrowserRouter>
-    
   </StrictMode>,
 )

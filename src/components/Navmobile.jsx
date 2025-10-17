@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import { FaTimes } from "react-icons/fa";
+import { X } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
+// import { FaTimes } from "react-icons/fa";
 
 const Navmobile = ({ closeNav }) => {
   // Disable body scroll when mounted, re-enable when unmounted
@@ -22,9 +24,10 @@ const Navmobile = ({ closeNav }) => {
     <div className="navmobile-overlay" onClick={handleOverlayClick}>
       <div className="navmobile-sidebar">
         <h1 className="logo1" onClick={closeNav}>SNEAKX</h1>
-        <button className="close-btn" onClick={closeNav}>
-          <FaTimes />
-        </button>
+        <motion.button className="close-btn" onClick={closeNav}  whileHover={{ rotate: 90, scale: 1.2 }}
+              transition={{ duration: 0.3 }}>
+           <X size={20} />
+        </motion.button>
       
         <NavLink to="/" onClick={closeNav} className="nav-link">HOME</NavLink>
         <NavLink to="/collection" onClick={closeNav} className="nav-link">COLLECTION</NavLink>
@@ -36,8 +39,8 @@ const Navmobile = ({ closeNav }) => {
           Become a Sneakx Member for the best products, inspiration and stories in fashion.
           <a href="#learnmore">Learn more</a>
         </p>
-        <button type="submit" className="joinus">join us</button>
-        <button type="button" className="signup">Sign in</button>
+        {/* <button type="submit" className="joinus">join us</button>
+        <button type="button" className="signup">Sign in</button> */}
       </div>
     </div>
   );

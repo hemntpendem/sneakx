@@ -81,7 +81,7 @@ const Cart = () => {
               className="remove-button"
               onClick={() => removeFromCart(product.id)}
             >
-              Remove
+            Remove
             </button>
             <button
               className="buy-btn"
