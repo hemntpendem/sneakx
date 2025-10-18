@@ -5,23 +5,26 @@
 
 ## Features
 
-- Product Catalog: Browse a curated collection of sneakers with filters for gender and age group.
-- Add to Cart: Add items to your cart with real-time updates.
-- Like Items: Mark your favorite sneakers for quick access.
-- Persistent State: Utilizes `useContext` and `localStorage` for state management, ensuring data persists across sessions.
-- Responsive Design: Optimized for both desktop and mobile devices.
-- Lightweight & Fast: Built with Vite for rapid development and performance.
+- **Google Authentication:** Secure sign-in powered by Firebase, allowing quick login with your Google account.  
+- **Sign Out Option:** Seamless sign-out for secure account management.  
+- **Product Catalog:** Browse a curated collection of sneakers with category filters for gender and age group.  
+- **Add to Cart:** Add sneakers to your cart with instant, real-time updates.  
+- **Like Items:** Mark your favorite sneakers for quick and easy access anytime.  
+- **Persistent State:** Uses `useContext` + `localStorage` to ensure your cart and likes stay saved across sessions.  
+- **Responsive Design:** Fully optimized for desktops, tablets, and mobile screens.  
+- **Lightweight & Fast:** Developed with **Vite** for blazing-fast performance and smooth user experience.  
 
 ---
 
 ## Tech Stack
 
-- Frontend: HTML,JavaScript,JSX,React, Vite
-- State Management: React Context API
-- JSON :custom sneaker dataset for product rendering
-- Styling: CSS Modules
-- Bundler: Vite
-- Version Control: Git, GitHub
+- **Frontend Framework:** React + Vite  
+- **Styling:** CSS / TailwindCSS  
+- **Authentication:** Firebase Authentication (Google Sign-In)  
+- **State Management:** React Context API + localStorage  
+- **Deployment:** Vercel  
+- **Database (Future Use):** Firebase Firestore  
+
  
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -30,6 +33,7 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
@@ -104,7 +108,7 @@ sneakx/
 Sneakx is fully responsive — here’s a quick preview on desktop and mobile.
 ## On Desktop
 
-![Welcome Popup](https://github.com/user-attachments/assets/84c0d3fa-dd1b-475a-a0fd-9f601db1b32b)
+![Welcome Popup](https://github.com/user-attachments/assets/a5188202-ce33-4ee0-bfcb-529309624364)
 
 ![Home Page](https://github.com/user-attachments/assets/4945788a-724a-4ac4-95c0-37cd5254eafe)
 
@@ -118,15 +122,15 @@ Sneakx is fully responsive — here’s a quick preview on desktop and mobile.
 
 ## On Mobile
 
-<img src="https://github.com/user-attachments/assets/e2c535bf-327b-4064-b880-e8686b872e4d" alt="Home Page On Mobile" width="300">
+<img src="https://github.com/user-attachments/assets/d339135f-35a3-4d1a-888f-7640b8418ea1" alt="Welcome Popup" width="300">
 
 <img src="https://github.com/user-attachments/assets/220f7f73-307c-418c-93fe-360bba26df89" alt="Mobile Nav Bar" width="300">
 
 <img src="https://github.com/user-attachments/assets/8f1f0b83-857e-4535-9e7f-1a55becf1537" alt="Search Page On Mobile" width="300">
 
 <img src="https://github.com/user-attachments/assets/8a11ab5a-fb25-4388-b4ca-965f9ba486c7" alt="Cart Page On Mobile" width="300">
-
-<img src="https://github.com/user-attachments/assets/adc4475f-b568-4704-9ed7-8443d558cf92" alt="Profile Page On Mobile" width="300">
+ 
+<img src="https://github.com/user-attachments/assets/9c4e4b61-737c-489e-ba43-3bdafda93bb8" alt="Profile Page" width="300">
 
 
 
