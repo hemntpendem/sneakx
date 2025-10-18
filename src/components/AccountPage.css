@@ -9,6 +9,15 @@
   align-items: center; /* centers grid container */
 }
 
+.account-header img {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.account-header img[style*="display: block"] {
+  opacity: 1;
+}
+
 .account-title {
   font-size: 1.5rem;
   margin-bottom: 2rem;
@@ -71,3 +80,32 @@
   font-size: 0.9rem;
   color: #555;
 }
+
+
+.signout-container {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.signout-btn {
+  background: #111;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  caret-color: transparent;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Poppins', sans-serif; /* Optional but modern AF */
+}
+
+.signout-btn:hover {
+  background: #e63946;
+  transform: translateY(-2px);
+  letter-spacing: 1px;
+}
+

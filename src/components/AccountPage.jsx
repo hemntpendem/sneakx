@@ -34,19 +34,41 @@ const AccountPage = () => {
         className="account-header"
         style={{ display: "flex", alignItems: "center", marginBottom: 20 }}
       >
-        {photo && imgLoaded ? (
-          <img
-            src={photo}
-            alt="Profile"
-            style={{ width: 60, height: 60, borderRadius: "50%", marginRight: 10 }}
-            onLoad={() => setImgLoaded(true)}
-          />
-        ) : (
-          <FaUserCircle
-            className="user-icon-fallback"
-            style={{ width: 60, height: 60, marginRight: 10, fontSize: "3rem" }}
-          />
-        )}
+        {photo ? (
+  <>
+    {!imgLoaded && (
+      <FaUserCircle
+        className="user-icon-fallback"
+        style={{
+          width: 60,
+          height: 60,
+          marginRight: 10,
+          fontSize: "3rem",
+          opacity: 0.6,
+        }}
+      />
+    )}
+    <img
+      src={photo}
+      alt="Profile"
+      style={{
+        width: 60,
+        height: 60,
+        borderRadius: "50%",
+        marginRight: 10,
+        display: imgLoaded ? "block" : "none",
+      }}
+      onLoad={() => setImgLoaded(true)}
+      onError={() => setImgLoaded(false)} // fallback if photo URL fails
+    />
+  </>
+) : (
+  <FaUserCircle
+    className="user-icon-fallback"
+    style={{ width: 60, height: 60, marginRight: 10, fontSize: "3rem" }}
+  />
+)}
+
 
         <h1 className="account-title">
           Your Account:{" "}
@@ -70,6 +92,19 @@ const AccountPage = () => {
           </div>
         ))}
       </div>
+      <div className="signout-container">
+  <button
+    className="signout-btn"
+    onClick={() => {
+      localStorage.clear();
+      sessionStorage.clear();
+      window.location.href = "/";
+    }}
+  >
+    Sign Out
+  </button>
+</div>
+
     </div>
   );
 };
