@@ -1,7 +1,18 @@
 {
   "name": "sneakx",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "SneakX - Sneaker showcase site built with React, Vite, and Firebase",
+  "author": "hemntpendem <pendemhemant@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://sneakx.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hemntpendem/sneakx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hemntpendem/sneakx/issues"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
