@@ -108,7 +108,7 @@ sneakx/
 Sneakx is fully responsive — here’s a quick preview on desktop and mobile.
 ## On Desktop
 
-![Welcome Popup](src="https://github.com/user-attachments/assets/84ce9db7-5e4b-4937-b595-df567fde6471")
+![Welcome Popup](https://github.com/user-attachments/assets/84ce9db7-5e4b-4937-b595-df567fde6471)
 
 ![Home Page](https://github.com/user-attachments/assets/4945788a-724a-4ac4-95c0-37cd5254eafe)
 
