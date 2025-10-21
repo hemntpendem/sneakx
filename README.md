@@ -57,15 +57,15 @@ Ensure you have the following installed:
 ### Installation
 
 ### Clone the repository:
-git clone https://github.com/hemntpendem/sneakx.git
-cd sneakx
+- git clone https://github.com/hemntpendem/sneakx.git
+- cd sneakx
 
 ### Install dependencies:
 npm install
 
 ### Start the development server:
-npm run dev
-Visit http://localhost:5173 in your browser.
+- npm run dev
+- Visit http://localhost:5173 in your browser.
 
 ---
 
